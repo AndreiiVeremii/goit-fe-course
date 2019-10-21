@@ -2,47 +2,35 @@
 padding:0;
 }
 
-nav {
-  width:750px;
-  margin: 0px auto;
-}
 
-nav:before{
-  content:'';
-  display:block;
-  height:50px;
-  width:100%;
-  background:#ffffff;
-  position:absolute;
-  left:0;
-  z-index:-1;
+.wrapper {
+  width: 900px;
+  margin: auto;
 }
-
-ul{
-  margin: 70px 0px 40px -40px;
-  padding: 0px;
+.menu {
+  text-align: center;
+  padding: 70px 0px 20px 0px;
   list-style:none;
-  height:50px;
 }
 
-ul li{
-  float:left;
+.meni__item {
+  display: inline-block;
+  margin: 0 2rem;
 }
-
-ul li a{
+a {
+  text-decoration:none;
   color:#626262;
-  display:block;
-  height:50px;
-  padding:0 50px;
   font-family: "Playfair Display";
   font-size: 14px;
   text-transform:uppercase;
-  text-decoration:none;
-  line-height:50px;
+  line-height:24px;
+  width: 52px;
 }
 
-ul li a:hover{
-  background:#d34d43;
+
+ a:hover {
+  color:#03a9f4;
+  /* background:#d34d43; */
 }
 
 .container1 {
@@ -51,7 +39,7 @@ ul li a:hover{
   font-family: "Playfair Display";
 }
  /* Ширина поля для 3 блоков */
-.string1, .string2, .string3 {
+.cards {
   padding: 55px;
   width: 1200px;
   background: #ffffff;
@@ -60,16 +48,16 @@ ul li a:hover{
   margin-bottom: 10px;
   }
   /* Ширина 6 img */
-  .one, .two, .three, .four, .five , .six {
+  .card1, .card2 {
   width: 420px;
   background: #ffffff;
   }
   /* block div  не четные */
-  .one, .three, .five {
+  .card1 {
   float: left;
   }
     /* block div  четные */
-  .two, .four, .six {
+  .card2 {
   margin-left: 490px;
   }
 /* Style for "Lifestyle" */
@@ -104,7 +92,7 @@ margin: 28px 0px;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    margin: 28px 0px;
+    margin: 30px 0px;
     }
     button {
       /* button Style for "Load more" */
@@ -116,7 +104,7 @@ font-family: "Playfair Display";
 font-size: 20px;
 font-weight: 400;
 line-height: 24px;
-margin-left: 450px;
+margin-left: 420px;
    }
 
 

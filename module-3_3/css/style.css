@@ -1,0 +1,108 @@
+*{margin:0;
+padding:0;
+}
+
+
+.conteiner {
+  width: 900px;
+  margin: auto;
+}
+
+.menu {
+  text-align: center;
+  padding: 70px 0px;
+  list-style:none;
+}
+
+.meni__item {
+  display: inline-block;
+  margin: 0 3rem;
+}
+a {
+  text-decoration:none;
+  color:#626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  text-transform:uppercase;
+  line-height:24px;
+  width: 52px;
+}
+
+
+ a:hover {
+  color:#03a9f4;
+  /* background:#d34d43; */
+}
+
+ /* Ширина поля для 3 блоков */
+.cards {
+  padding-bottom: 55px;
+  background: #ffffff;
+  font-size: 0;
+  }
+
+
+  /* Ширина 6 img */
+  .card {
+  display: inline-block;
+  width: 420px;
+  background: #ffffff;
+  margin-right: 60px;
+  vertical-align: top;
+    }
+
+/* Style for "Lifestyle" */
+  .text2 {
+    /* Text H2 */
+width: 63px;
+height: 11px;
+color: #b4ad9e;
+font-family: Ubuntu;
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+margin: 28px 0px;
+  }
+
+  .text3 {
+    /* text h3 */
+  width: 407px;
+  height: 30px;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  font-weight: 400;
+  margin: 28px 0px;
+  }
+  .text4 {
+    /* text-decoration:  */
+    width: 414px;
+    height: 63px;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 0;
+    }
+    /* Последний в карточках */
+    .cards :last-of-type {
+    margin-right: 0;
+    }
+
+/* button Style for "Load more" */
+.butt {
+text-align: center;
+}
+
+button {
+display: inline-block;
+width: 164px;
+height: 60px;
+background: #ffffff;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+}

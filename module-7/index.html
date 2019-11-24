@@ -71,7 +71,7 @@
             Proin iaculis purus consequat sem cure.
           </span>
         </h2>
-        <form class="main-footer-form" action="#" method="get">
+        <form class="main-footer-form" action="#" method="POST">
           <div class="main-footer-form__container">
             <input
               class="main-footer-form__name"
@@ -79,20 +79,20 @@
               name="name"
               placeholder="Your name *"
               required
-            />
+            >
             <input
               class="main-footer-form__email"
               type="email"
               name="email"
               placeholder="Your e-mail *"
               required
-            />
+            >
             <input
               class="main-footer-form__subject"
               type="text"
               name="subject"
               placeholder="Sublect"
-            />
+            >
           </div>
           <textarea
             class="main-footer-form__textarea"
@@ -100,7 +100,7 @@
             placeholder="Your message *"
             required
           ></textarea>
-          <button class="main-footer-form__btn-send">Send Message</button>
+          <button class="main-footer-form__btn-send" type="submit">Send Message</button>
         </form>
       </div>
     </footer>
